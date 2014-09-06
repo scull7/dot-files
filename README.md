@@ -26,6 +26,7 @@ Plugins
 [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides.git)
 [vim-coffee-script](https://github.com/tpope/vim-coffee-script.git)
 [vim-jade](https://github.com/digitaltoad/vim-jade.git)
+[vim-gitgutter](https://github.com/airblade/vim-gitgutter.git)
 
 
 Node Modules
