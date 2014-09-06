@@ -25,7 +25,7 @@ Plugins
 [vim-javascript](https://github.com/pangloss/vim-javascript.git)
 [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides.git)
 [vim-coffee-script](https://github.com/tpope/vim-coffee-script.git)
-[vim-jade](https://github.com/marijnh/tern_for_vim.git)
+[vim-jade](https://github.com/digitaltoad/vim-jade.git)
 
 
 Node Modules
