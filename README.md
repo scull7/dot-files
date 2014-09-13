@@ -3,6 +3,14 @@ dot-files
 
 A collection of my fancy dot files
 
+Installation
+------------
+To install issue the following from within the cloned directory of this project:
+```bash
+ln -s .vim ~/.vim
+ln -s .vimrc ~/.vimrc
+```
+
 Resources
 ---------
 Web sites that I used to find plugins
