@@ -5,7 +5,8 @@ A collection of my fancy dot files
 
 Installation
 ------------
-To install issue the following from within the cloned directory of this project:
+1. Install [vim-plug](https://github.com/junegunn/vim-plug)
+2. issue the following command from within the cloned directory of this project:
 ```bash
 ln -s .vim ~/.vim
 ln -s .vimrc ~/.vimrc
