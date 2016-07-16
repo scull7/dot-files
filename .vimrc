@@ -6,6 +6,7 @@ Plug 'tpope/vim-sensible'
 
 Plug 'tpope/vim-surround'
 
+"fugitive.vim: a Git wrapper so awesome, it should be illegal
 Plug 'tpope/vim-fugitive'
 
 "Lean & mean status/tabline for vim that's light as air.
