@@ -9,6 +9,13 @@ To install issue the following from within the cloned directory of this project:
 ```bash
 ln -s .vim ~/.vim
 ln -s .vimrc ~/.vimrc
+ln -s .bash_profile ~/.bash_profile
+```
+
+### NPM Completion
+For NPM command completion happiness run this command from your terminal
+```bash
+npm completion >> ~/.bash_profile
 ```
 
 Resources
