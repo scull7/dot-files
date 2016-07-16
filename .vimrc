@@ -43,6 +43,9 @@ Plug 'stephpy/vim-yaml'
 
 Plug 'ElmCast/elm-vim'
 
+"Run your tests at the speed of thought
+Plug 'janko-m/vim-test'
+
 call plug#end()
 
 syntax on
