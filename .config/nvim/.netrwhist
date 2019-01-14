@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/nsculli/elixir/prepaid_org/lib/prepaid_web'
+let g:netrw_dirhist_2='/Users/nsculli/elixir/prepaid_org'
+let g:netrw_dirhist_3='/Users/nsculli/elixir/prepaid'
+let g:netrw_dirhist_4='/Users/nsculli/elixir/prepaid/lib'
+let g:netrw_dirhist_5='/Users/nsculli/elixir/prepaid/lib/prepaid'
+let g:netrw_dirhist_6='/Users/nsculli/elixir/prepaid_org'
+let g:netrw_dirhist_7='/Users/nsculli/elixir/prepaid'
