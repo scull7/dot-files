@@ -3,9 +3,10 @@ require('mason-lspconfig').setup({
   ensure_installed = {
     'elmls',
     'lua_ls',
+    -- 'gleam', -- Gleam is not yet supported by Mason
     'rust_analyzer',
     'tailwindcss',
-    'tsserver',
+    'ts_ls',
     'jsonls',
     'sqlls',
   }
@@ -25,9 +26,10 @@ lspconfig.lua_ls.setup({
 lspconfig.rust_analyzer.setup({})
 lspconfig.elmls.setup({})
 lspconfig.tailwindcss.setup({})
-lspconfig.tsserver.setup({})
+lspconfig.ts_ls.setup({})
 lspconfig.jsonls.setup({})
 lspconfig.sqlls.setup({})
+lspconfig.gleam.setup({})
 
 -- Setup keymaps for lsp
 local opts = { noremap=true, silent=true }

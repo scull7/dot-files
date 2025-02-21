@@ -58,6 +58,14 @@ return {
       'sindrets/diffview.nvim',
     }
   },
+  -- Comment Plugin
+  {
+    'numToStr/Comment.nvim',
+    opts = {
+        -- add any options here
+    },
+    lazy = false,
+  },
   -- Status Line
   {
     'nvim-lualine/lualine.nvim',

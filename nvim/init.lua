@@ -1,5 +1,6 @@
 -- Updates from checkhealth
 vim.g.python3_host_prog = '/usr/bin/python3'
+vim.g.perl_host_prog = '/usr/bin/perl'
 
 -- https://github.com/volta-cli/volta/issus/866
 if vim.fn.executable('volta') then
