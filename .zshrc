@@ -2,8 +2,8 @@
 #
 bindkey -v
 
-autoload -U promptinit; promptinit
-prompt pure
+# autoload -U promptinit; promptinit
+# prompt pure
 
 autoload -U compinit && compinit
 zmodload -i zsh/complist
@@ -11,7 +11,6 @@ zmodload -i zsh/complist
 # My fancy command aliases
 alias cnt='clear ; npm test'
 alias xgrep='grep -n -r --exclude-dir=node_modules --exclude-dir=.git --color=auto'
-
 
 alias demo-day='cd /Users/scull7/code/scull7/demo-day-vegas'
 
@@ -46,3 +45,5 @@ done
 # Rust toolchain setup.
 export PATH="$HOME/.cargo/bin:$PATH"
 export RUST_SRC_PATH=~/.multirust/toolchains/nightly-x86_64-apple-darwin/lib/rustlib/src/rust/src
+
+eval "$(starship init zsh)"

@@ -5,18 +5,60 @@ A collection of my fancy dot files
 
 Installation
 ------------
-1. Install [vim-plug](https://github.com/junegunn/vim-plug)
-2. issue the following command from within the cloned directory of this project:
-```bash
-ln -s .vim ~/.vim
-ln -s .vimrc ~/.vimrc
-ln -s .bash_profile ~/.bash_profile
+1. Install Neovim Packer Plugin Manager - https://github.com/wbthomason/packer.nvim
+2. Install Rust
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+3. Install Homebrew
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+4. Install Neovim
+```sh
+brew install neovim
+```
+5. Install Packer (Neovim Package Manager)
+```sh
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+``
+6. Install Rust Utilities
+- bat:		`cat` replacement - https://github.com/sharkdp/bat
+- du-dust:	`du` replacement - https://github.com/bootandy/dust
+- exa: 		`ls` replacement - https://github.com/ogham/exa
+- git-delta	Git pager / diff - https://github.com/dandavison/delta
+- procs:	`ps` alternative - https://github.com/dalance/procs
+- ripgrep:	`grep` alternative -https://github.com/BurntSushi/ripgrep
+- starship:	Alternative Prompt - https://github.com/starship/starship
+- tealdeer:	TLDR man pages - https://github.com/tealdeer-rs/tealdeer
+- tokei:	code line counter - https://github.com/XAMPPRocky/tokei
+- zellij:	`tmux` alternative - https://github.com/zellij-org/zellij
+
+
+```sh
+cargo install exa # ls replacement - https://github.com/ogham/exa  && \
+cargo install bat # cat replacement - https://github.com/sharkdp/bat  && \
+cargo install zellij # tmux alternative - https://github.com/zellij-org/zellij  && \
+cargo install tokei # code line counter - https://github.com/XAMPPRocky/tokei  && \
+cargo install procs # ps alternative - https://github.com/dalance/procs  && \
+brew install cmake && \
+cargo install starship 
 ```
 
 ### NPM Completion
 For NPM command completion happiness run this command from your terminal
 ```bash
 npm completion >> ~/.bash_profile
+```
+
+### Vim (not Neovim) Configuration
+1. Install [vim-plug](https://github.com/junegunn/vim-plug)
+2. issue the following command from within the cloned directory of this project:
+```bash
+ln -s .vim ~/.vim
+ln -s .vimrc ~/.vimrc
+ln -s .bash_profile ~/.bash_profile
 ```
 
 Resources

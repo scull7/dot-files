@@ -12,13 +12,6 @@ vim.g.maplocalleader = " "
 -- Ctrl-P keymaps
 -- keymap('n', '<C-p>', ':Files<CR>', opts)
 
--- Setup keymaps for telescope.
-keymap('n', '<leader>fb', ':Telescope file_browser<CR>', opts)
-keymap('n', '<C-p>', ':Telescope find_files<CR>', opts)
-keymap('n', '<leader>fg', ':Telescope live_grep<CR>', opts)
-keymap('n', '<leader>tb', ':Telescope buffers<CR>', opts)
-keymap('n', '<leader>fh', ':Telescope help_tags<CR>', opts)
-
 -- Setup keymaps for terminal navigation
 -- https://vi.stackexchange.com/questions/4919/exit-from-terminal-mode-in-neovim-vim-8
 local term_opts = { silent = true }

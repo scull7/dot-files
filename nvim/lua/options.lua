@@ -5,10 +5,10 @@ set.relativenumber = true
 set.wrap = false
 
 -- tope/vim-sensible
+
 set.autochdir = false
 set.ignorecase = true
 set.lazyredraw = true
--- set.pastetoggle = '<Insert>'
 set.shiftround = true
 set.showcmd = true -- show command in the bottom bar
 set.showmatch = true -- highlight matching brace
