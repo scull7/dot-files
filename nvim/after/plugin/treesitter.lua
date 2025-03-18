@@ -18,4 +18,4 @@ require('nvim-treesitter.configs').setup({
     enable_autocmd = false,
   }
 })
-require('nvim-treesitter.install').compilers = {"gcc-11"}
+require('nvim-treesitter.install').compilers = {"gcc"}

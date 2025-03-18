@@ -2,7 +2,7 @@
 vim.g.python3_host_prog = '/usr/bin/python3'
 vim.g.perl_host_prog = '/usr/bin/perl'
 
--- https://github.com/volta-cli/volta/issus/866
+-- https://github.com/volta-cli/volta/issues/866
 if vim.fn.executable('volta') then
 	vim.g.node_host_prog = vim.trim(vim.fn.system('volta which neovim-node-host'))
 end

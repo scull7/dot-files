@@ -73,18 +73,19 @@ return {
   },
 
   -- Window Top Bar
-  {
-    "utilyre/barbecue.nvim",
-    name = "barbecue",
-    version = "*",
-    dependencies = {
-      "SmiteshP/nvim-navic",
-      "nvim-tree/nvim-web-devicons", -- optional dependency
-    },
-    opts = {
-      -- configurations go here
-    },
-  },
+  -- Unfortunately this plugin was deprecated by its author.
+  -- {
+  --   "utilyre/barbecue.nvim",
+  --   name = "barbecue",
+  --   version = "*",
+  --   dependencies = {
+  --     "SmiteshP/nvim-navic",
+  --     "nvim-tree/nvim-web-devicons", -- optional dependency
+  --   },
+  --   opts = {
+  --     -- configurations go here
+  --   },
+  -- },
 
   -- Co-Pilot
   'github/copilot.vim',
